@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fruitninja.FruitninjaamainmenuController">
+   <children>
+      <ImageView fitHeight="376.0" fitWidth="769.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fruitninja.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6daeeb" height="343.0" layoutY="375.0" stroke="BLACK" strokeType="INSIDE" width="783.0" />
+      <Button fx:id="playClassicBtn" layoutX="159.0" layoutY="388.0" mnemonicParsing="false" onAction="#playClassic" prefHeight="54.0" prefWidth="444.0" style="-fx-background-radius: 20; -fx-background-insets: 5; -fx-background-color: yellow;" text="Play Classic Mode" textFill="#f51731">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitBtn" layoutX="307.0" layoutY="633.0" mnemonicParsing="false" onAction="#exit" prefHeight="54.0" prefWidth="171.0" style="-fx-background-radius: 20; -fx-background-insets: 5; -fx-background-color: yellow;" text="Exit" textFill="#eb1111">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="playArcadeBtn" layoutX="155.0" layoutY="566.0" mnemonicParsing="false" onAction="#playArcade" prefHeight="54.0" prefWidth="453.0" style="-fx-background-radius: 20; -fx-background-insets: 5; -fx-background-color: yellow;" text="Play Arcade Mode" textFill="#f51731">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="hardBtn" disable="true" layoutX="229.0" layoutY="506.0" mnemonicParsing="false" onAction="#playHard" prefHeight="54.0" prefWidth="308.0" style="-fx-background-radius: 20; -fx-background-insets: 5; -fx-background-color: yellow;" text="Hard" textFill="#f51731">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="mediumBtn" disable="true" layoutX="399.0" layoutY="452.0" mnemonicParsing="false" onAction="#playMedium" prefHeight="54.0" prefWidth="208.0" style="-fx-background-radius: 20; -fx-background-insets: 5; -fx-background-color: yellow;" text="Medium" textFill="#f51731">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="easyBtn" disable="true" layoutX="175.0" layoutY="452.0" mnemonicParsing="false" onAction="#playEasy" prefHeight="54.0" prefWidth="208.0" style="-fx-background-radius: 20; -fx-background-insets: 5; -fx-background-color: yellow;" text="Easy" textFill="#f51731">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
